@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" href="favicon.ico">
-    <title>instant-tracking-particle-systems</title>
+    <title>SeekAR</title>
     <style>
         html {
             box-sizing: border-box;
@@ -43,7 +43,7 @@
             width: 100%;
             height: 100%;
 
-            background: #231F20;
+            background: #000000;
         }
 
         #loading-cover {
@@ -132,20 +132,20 @@
             <div class="spinner"></div>
         </div>
     </div>
-    <script type="text/javascript" src="https://libs.zappar.com/zappar-cv/2.1.2/zappar-cv.js"></script>
+    <script type="text/javascript" src="https://libs.zappar.com/zappar-cv/2.1.9/zappar-cv.js"></script>
     <script>
         var db = indexedDB.open("dummy_indexdb", 1); // iOS 14.6 fix; the call to open indexdb hangs forever otherwise
 
         const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/webgl-dist.loader.js";
+        const loaderUrl = buildUrl + "/834895fdd198dc3a51e16708dda6967f.loader.js";
         const config = {
-            dataUrl: buildUrl + "/47269816ee128ec4a354c0fb4545ae8b.data.unityweb",
-            frameworkUrl: buildUrl + "/dc9aa40933b6bd466c6a58d71f12f227.js.unityweb",
-            codeUrl: buildUrl + "/ce7d218226f538040f2a4dfb39c5f2f7.wasm.unityweb",
+            dataUrl: buildUrl + "/9c53def09c4a5a003d64957098299253.data.unityweb",
+            frameworkUrl: buildUrl + "/70ba4785a014b838e4f3d32cf31f20d2.framework.js.unityweb",
+            codeUrl: buildUrl + "/ccb6eb5f0e2cec7cd338b1c7e377a7ae.wasm.unityweb",
             streamingAssetsUrl: "StreamingAssets",
-            companyName: "PanderaStudios",
-            productName: "instant-tracking-particle-systems",
-            productVersion: "1.0",
+            companyName: "SeekAR",
+            productName: "SeekAR",
+            productVersion: "1.0.0",
         //Useful when used along with Filename as Hashes option
             cacheControl: function (url) {
             // typically includes: .data, .bundle, .zpt
